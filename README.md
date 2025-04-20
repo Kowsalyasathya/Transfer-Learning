@@ -2,10 +2,7 @@
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
-</br>
-</br>
-</br>
+Develop an image classification model using transfer learning with the pre-trained VGG19 model.
 
 ## DESIGN STEPS
 ### STEP 1:
@@ -93,16 +90,24 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ### Confusion Matrix
 
+![image](https://github.com/user-attachments/assets/b783a767-a0ca-4e55-a82f-75deffb2b156)
 
 ### Classification Report
 
+![image](https://github.com/user-attachments/assets/9e1b8d62-b8b3-457a-b365-e087ec24dfea)
 
 ### New Sample Prediction
-</br>
-</br>
-</br>
+```
+# Example Prediction
+predict_image(model, image_index=55, dataset=test_dataset)
+```
+![image](https://github.com/user-attachments/assets/44cd63fa-4421-4935-be9f-1c4394d56a79)
+
+```
+#Example Prediction
+predict_image(model, image_index=5, dataset=test_dataset)
+```
+![image](https://github.com/user-attachments/assets/083981c7-ccbe-406f-86a4-50e51c383626)
 
 ## RESULT
-</br>
-</br>
-</br>
+Thus, the Transfer Learning for classification using the VGG-19 architecture has been successfully implemented.
